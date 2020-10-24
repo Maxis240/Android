@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="mascota1">Catty</string>
+    <string name="mascota2">Ronny</string>
+    <string name="mascota3">Carla</string>
+    <string name="mascota4">Ricardo</string>
+    <string name="mascota5">Carlotta</string>
+    <string name="mascota6">Reinaldo</string>
+    <string name="telefono">000111</string>
+    <string name="pnombre">nombre</string>
+    <string name="pfoto">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="texto_boton">Segunda Actividad</string>
+    <string name="ricardo">foto</string>
+    <string name="rating">rating</string>
+    <string name="menu_about">Contacto</string>
+    <string name="menu_settings">Acerca de</string>
+    <string name="texto_about">About</string>
+    <string name="texto_settings">Settings</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="nombre_persona">Nombre</string>
+    <string name="menu_view">View</string>
+    <string name="menu_detail">Detail</string>
+    <string name="hello_blank_fragment">fragment2</string>
+    <string name="app_detalle">Formulario</string>
+    <string name="app_bio">Biografía</string>
+    <string name="app_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="nombre">nombre</string>
+    <string name="nLabel">Nombre</string>
+    <string name="email">email</string>
+    <string name="eLabel">Email</string>
+    <string name="mensaje">mensaje</string>
+    <string name="mLabel">Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="nombreform">nombre_formulario</string>
+    <string name="emailform">email@formulario</string>
+    <string name="mensajeform">mensaje_formulario</string>
+    <string name="editar">editar</string>
+    <string name="guardar">guardar</string>
+    <string name="creado">El archivo se ha creado</string>
+    <string name="error_creado">Hubo un error en la escritura del archivo</string>
+    <string name="guardar_preferencia">Guardar Preferencia</string>
+    <string name="mostrar_preferencia">Mostrar Preferencia</string>
+    <string name="preferencia_compartida">Se ha creado correctamente la Preferencia Compartida</string>
+    <string name="plikes">0 likes</string>
+    <string name="todo">TODO</string>
+
+</resources>

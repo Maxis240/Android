@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="app_titulo">36sp</dimen>
+    <dimen name="date_size">24sp</dimen>
+    <dimen name="nombre_cardview">20sp</dimen>
+    <dimen name="corner_radius_cardview">4sp</dimen>
+    <dimen name="like_width">38sp</dimen>
+    <dimen name="like_height">38sp</dimen>
+    <dimen name="left">30sp</dimen>
+    <dimen name="elevacion_action_bar">4dp</dimen>
+    <dimen name="texto_persona">30sp</dimen>
+    <dimen name="detalle_contacto">20sp</dimen>
+    <dimen name="favHeight">50sp</dimen>
+    <dimen name="shadow_radius">12sp</dimen>
+</resources>

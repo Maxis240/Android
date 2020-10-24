@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <include
+            android:id="@+id/miActionBar"
+            layout="@layout/actionbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    <!--
+       *** boton comentado, porque el constructor requiere de parametros
+       al pasar de una activity a otra, tuve que implementar
+        un método distinto para pasar de una activity a otra:
+        Ver DetalleContacto.java***
+       <Button
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="@string/texto_boton"
+           android:textColor="@color/colorAccent"
+           android:id="@+id/button"
+           android:onClick="irSegundaActividad"
+           android:layout_below="@id/miActionBar"
+           android:layout_centerHorizontal="true"
+       />
+       -->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+        </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:tabInlineLabel="true"
+                app:tabPaddingStart="10dp"
+                >
+        </com.google.android.material.tabs.TabLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Ejemplos de clase, los dejo dentro del viewPager para que no se muestren
+        en la current view -->
+        <ImageView
+            android:id="@+id/imgImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:onClick="levantarMenuPoPup"
+            android:layout_gravity="bottom|center"
+            android:layout_below="@id/viewPager"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_persona"
+            android:textSize="@dimen/texto_persona"
+            android:id="@+id/tvNombre"
+            android:layout_gravity="bottom|center"
+            />
+        <!-- Terminan ejemplos de clase (menu)-->
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
